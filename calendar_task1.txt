@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>Scheduler scheduler - タスクの進捗管理</title>
+<link rel="stylesheet" href="jquery.datetimepicker.css">
+<link rel="stylesheet" href="./css/task.css?refresh">
+<script src="js/jquery.js"></script>
+<script src="js/jquery.datetimepicker.js"></script>
+<script src="js/build/jquery.datetimepicker.full.js"></script>
+<script language="JavaScript">
+function mySubmit( place ) {
+document.form1.completed.value = place;
+document.form1.submit();
+}
+</script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+<script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<link rel="stylesheet" href="/resources/demos/style.css" />
+<script>
+$(function() {
+  $( "#slider-range-min" ).slider({
+    range: "min",
